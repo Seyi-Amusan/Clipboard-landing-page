@@ -1,0 +1,29 @@
+.header{
+    
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    height: 45rem;
+    margin-bottom: 6.5rem;
+
+    display: grid;
+    grid: 3fr  repeat(2, max-content) 1fr / 50rem;
+    row-gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+
+    &__logo{
+        align-self: end;
+        @media (max-width: 500px){
+            height: 9rem;
+        }
+    }
+
+    &__btn-box{
+        justify-self: stretch;
+    }
+    &__heading{
+        font-size: 3.2rem;
+    }
+}

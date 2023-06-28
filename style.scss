@@ -1,0 +1,36 @@
+@import 'scss/header';
+@import 'scss/main';
+@import 'scss/footer';
+@import 'scss/button';
+@import 'scss/typography';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    @media (max-width: 500px){
+        font-size: 50%;
+    }
+    @media (max-width: 400px){
+        font-size: 40%;
+    }
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+:root{
+    --scyan: hsl(171, 66%, 44%);
+    --scyan-a: hsla(171, 66%, 44%, .5);
+    --lblue: hsl(233, 100%, 69%);
+    --lblue-a: hsla(233, 100%, 69%, .5);
+    --dgblue: hsl(210, 10%, 33%);
+    --dgblue-a: hsla(210, 10%, 33%, .5);
+    --gblue: hsl(201, 11%, 66%);
+    --gblue-a: hsla(201, 11%, 66%, .2);
+}
