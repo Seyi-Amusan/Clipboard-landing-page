@@ -1,5 +1,5 @@
 .header{
-    
+
     background-image: url(images/bg-header-desktop.png);
     background-repeat: no-repeat;
     height: 45rem;
@@ -25,5 +25,8 @@
     }
     &__heading{
         font-size: 3.2rem;
+        @media (max-width: 400px){
+            font-size: 4rem;
+        }
     }
 }
